@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ahorcado Game</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>El Ahorcado</h1>
+    </div>
+
+    <div id="welcome">
+        <h2>Bienvenido al juego!</h2>
+        <p>Acierta todas las palabras para ganar</p>
+        <p>En la consola esta la palabra gg</p>
+        <button id="boton-jugar">Jugar!</button>
+    </div>
+    
+    <div id="game">
+        <div id="muneco">
+            <img src="./images/1.png">
+            
+        </div>
+        
+    
+        <div id="letras">
+        </div>
+
+        <div class="juegoIns"> 
+            <p>La palabra tiene <span id="numPalabras"></span> letras</p>
+            <p><span id="vida">5</span> ❤️</p>
+        </div>
+
+        <div class="inputs">
+            <input id="inputJuego" type="text" maxlength="1" placeholder="Elige una letra">
+            <button id="intentar">Intentar</button>
+        </div>
+    </div>
+
+    <div class="foot">
+        <p>MiniBootTest</p>
+    </div>
+
+    <div id="end">
+        <p id="pend"></p>
+        <button id="reiniciar">Reiniciar</button>
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
